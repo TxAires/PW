@@ -27,3 +27,5 @@ jobs:
         uses: actions/checkout@v2
       - name: Build project
         run: npm run build
+      - name: netifly
+        run: npx netlify-cli deploy --site gleeful-bunny-73b718.netlify.app --auth nfp_rTMKLJWpQEgMYsAPoEmLSNaciDDFGcWEf434 --prod
